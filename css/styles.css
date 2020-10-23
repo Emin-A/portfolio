@@ -3,15 +3,27 @@ body {
 }
 .bottom-container {
 }
+#facebook {
+  height: 30px;
+}
 .first {
   background-color: black;
   height: 100px;
   text-align: center;
 }
+#footerOne {
+  height: 24px;
+}
 
 h1 {
   margin-top: 0%;
   padding: 20px;
+}
+#instagram {
+  height: 30px;
+}
+#linkedin {
+  height: 30px;
 }
 #logo {
   width: 100px;
@@ -19,5 +31,14 @@ h1 {
 }
 .middle-container {
 }
+.nav-item-one {
+  margin-right: 10px;
+}
 .top-container {
+}
+#twitter {
+  height: 30px;
+}
+#youtube {
+  height: 30px;
 }
