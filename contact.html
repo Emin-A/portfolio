@@ -35,8 +35,9 @@
         </li>
       </ul>
     </nav>
-
-    <h1>Contact Me</h1>
+    <div class="container">
+      <h1>Contact Me</h1>
+    </div>
     <div class="container">
       <form>
         <div class="form-row">
@@ -62,59 +63,86 @@
               Have a nice day...
             </p>
           </div>
-          <div class="form-group col-md-4">
-            <label for="inputEmail4">Email</label>
-            <input type="email" class="form-control" id="inputEmail4" />
-          </div>
-          <div class="form-group col-md-4">
-            <label for="inputPassword4">Password</label>
-            <input type="password" class="form-control" id="inputPassword4" />
+          <div class="form-group col-md-8">
+            <div class="form-group">
+              <h5>Name*</h5>
+              <div class="form-row">
+                <div class="form-group col">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="First Name"
+                  />
+                </div>
+                <div class="form-group col">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Last Name"
+                  />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col">
+                  <label for="inputEmail4"><h5>Email*</h5></label>
+                  <input type="email" class="form-control" id="inputEmail4" />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col">
+                  <!-- I STOPPED HERE -->
+                  <h5>Subject*</h5>
+                  <input type="text" class="form-control" />
+                </div>
+              </div>
+              <h5>Choose*</h5>
+              <div class="form-row">
+                <div class="form-group col-md-4">
+                  <p>Need an Architect?</p>
+                  <div class="form-row">
+                    <div class="form-group form-check">
+                      <input
+                        type="checkbox"
+                        class="form-check-input"
+                        id="exampleCheck1"
+                      />
+                      <label class="form-check-label" for="exampleCheck1"
+                        >Yes</label
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group col-md-4">
+                  <p>Need a full-stack developer?</p>
+                  <div class="form-row">
+                    <div class="form-group form-check">
+                      <input
+                        type="checkbox"
+                        class="form-check-input"
+                        id="exampleCheck1"
+                      />
+                      <label class="form-check-label" for="exampleCheck1"
+                        >Yes</label
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h5>Message*</h5>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1"
+                  >Tell me about your project (timeline, scope, etc.)</label
+                >
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-dark">Submit</button>
+            </div>
           </div>
         </div>
-        <div class="form-group">
-          <label for="inputAddress">Address</label>
-          <input
-            type="text"
-            class="form-control"
-            id="inputAddress"
-            placeholder="1234 Main St"
-          />
-        </div>
-        <div class="form-group">
-          <label for="inputAddress2">Address 2</label>
-          <input
-            type="text"
-            class="form-control"
-            id="inputAddress2"
-            placeholder="Apartment, studio, or floor"
-          />
-        </div>
-        <div class="form-row">
-          <div class="form-group col-md-6">
-            <label for="inputCity">City</label>
-            <input type="text" class="form-control" id="inputCity" />
-          </div>
-          <div class="form-group col-md-4">
-            <label for="inputState">State</label>
-            <select id="inputState" class="form-control">
-              <option selected>Choose...</option>
-              <option>...</option>
-            </select>
-          </div>
-          <div class="form-group col-md-2">
-            <label for="inputZip">Zip</label>
-            <input type="text" class="form-control" id="inputZip" />
-          </div>
-        </div>
-        <div class="form-group">
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="gridCheck" />
-            <label class="form-check-label" for="gridCheck">
-              Check me out
-            </label>
-          </div>
-        </div>
-        <button type="submit" class="btn btn-primary">Sign in</button>
       </form>
     </div>
     <footer>
