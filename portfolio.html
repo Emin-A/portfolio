@@ -12,28 +12,56 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
-    <link rel="icon" href="DE.ico" />
+    <link rel="icon" href="/CSS - MySite/portfolio/images/DE logo FINAL.ico" />
     <title>Portfolio</title>
   </head>
   <body>
     <div class="first">
       <img id="logo" src="images/DE logo 2.png" alt="DE" />
     </div>
-    <nav class="navbar navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
       <a class="navbar-brand" href="index.html">DESIGN ENVISION</a>
-      <ul class="nav justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link active text-white" href="portfolio.html"
-            >PORTFOLIO</a
-          >
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="profile.html">PROFILE</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="contact.html">CONTACT</a>
-        </li>
-      </ul>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item active ml-auto">
+            <a class="nav-link text-white" href="portfolio.html"
+              >PORTFOLIO<span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item ml-auto">
+            <a class="nav-link text-white" href="profile.html">PROFILE</a>
+          </li>
+          <li class="nav-item ml-auto">
+            <a class="nav-link text-white" href="contact.html">CONTACT</a>
+          </li>
+          <li class="nav-item ml-auto d-block d-md-none">
+            <form class="form-inline my-2 my-lg-0">
+              <input
+                class="form-control mr-sm-2 ml-auto"
+                type="search"
+                placeholder="Search"
+              />
+              <button
+                class="btn btn-outline-success my-2 my-sm-0"
+                type="submit"
+              >
+                Search
+              </button>
+            </form>
+          </li>
+        </ul>
+      </div>
     </nav>
     <div class="container">
       <h1>Portfolio</h1>
